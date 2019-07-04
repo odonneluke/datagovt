@@ -4,9 +4,7 @@ Version: 0.1.0
 Authors@R: 
     person(given = "Luke",
            family = "O'Donnell",
-           role = c("aut", "cre"),
-           email = "odonneluke@gmail.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           role = c("aut", "cre"))
 Description: An R client to the data.govt.nz data and metadata web services
 License: What license it uses
 Encoding: UTF-8

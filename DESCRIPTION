@@ -1,0 +1,22 @@
+Package: datagovt
+Title: R Client to the data.govt.nz Web Service
+Version: 0.1.0
+Authors@R: 
+    person(given = "Luke",
+           family = "O'Donnell",
+           role = c("aut", "cre"),
+           email = "odonneluke@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: An R client to the data.govt.nz data and metadata web services
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+Depends:
+  R (>= 3.6.0)
+Imports:
+  httr (>= 1.4.0),
+  jsonlite (>= 1.6),
+  dplyr (>= 0.8.1),
+  rlang (>= 0.3.4),
+  purrr (>= 0.3.2)
+
